@@ -1,0 +1,8 @@
+{
+	"type": "material",
+	"name": "dronoid",
+	"description": "A rare resource.",
+	"hardness": 3,
+	"cost": 2.0,
+	"color": "ffffff"
+}

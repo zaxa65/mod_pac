@@ -1,0 +1,25 @@
+{
+	"name": "Chrome Wraith Factory",
+	"description": "Makes Chrome Wraith units.",
+	"type": "UnitFactory",
+	"unitType": "chrome-wraith",
+	"size": 3,
+	"produceTime": 350,
+	"consumes": {
+		"power": 0.5,
+		"items": {
+			"items": [
+				{"item": "silicon", "amount": 20},
+				{"item": "dronoid", "amount": 10}
+			]
+		}
+	},
+	"category": "units",
+	"research": "wraith-factory",
+	"requirements": [
+		{ "item": "gold", "amount": 60 },
+		{ "item": "dronoid", "amount": 50 },
+		{ "item": "silicon", "amount": 30 },
+		{ "item": "titanium", "amount": 30 }
+	]
+}

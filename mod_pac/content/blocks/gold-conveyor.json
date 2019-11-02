@@ -1,0 +1,13 @@
+{
+	"type": "Conveyor",
+	"name": "gold Conveyor",
+	"description": "gold Conveyor is Late game Conveyor which is better than Titanium!.",
+	"itemCapacity": 10,
+	"requirements": [
+		{"item": "gold", "amount": 5},
+		{"item": "titanium", "amount": 8},
+		{"item": "copper", "amount": 3},
+	],
+	"category": "distribution",
+	"speed": 0.45,
+}

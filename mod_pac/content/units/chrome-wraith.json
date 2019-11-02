@@ -1,0 +1,17 @@
+{
+	"type": "Unit",
+	"name": "Chrome Wraith",
+	"description": "Generally annoying and flashy.",
+	"speed": 0.9,
+	"flying": false,
+	"health": 150,
+	"engineOffset": 5.5,
+	"range": 160,
+	"weapon": {
+		"name": droid-blaster",
+		"length": 1.0,
+		"reload": 6,
+		"alternate": true,
+		"bullet": "lightning"
+	}
+}

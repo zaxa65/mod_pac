@@ -1,0 +1,39 @@
+{
+	"type": "DoubleTurret",
+	"name": "Gold Turret",
+	"description": "Turret from Gold alloy with multiple types of ammo",
+	"health": 300,
+	"size": 1,
+	"reload": 6,
+	"range": 120,
+	"ammoUseEffect": "shellEjectSmall",
+	"inaccuracy": 6,
+	"rotatespeed": 25,
+	"ammo": {
+		"copper":
+					"speed": 6.0,
+			"damage": 9,
+			"bulletWidth": 8,
+			"bulletHeight": 10,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 11,
+		},
+        "Gold": {
+			"speed": 10.0,
+			"damage": 16,
+			"bulletWidth": 4,
+			"bulletHeight": 17,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 17,
+		},
+	},
+	"requirements": [
+		{ "item": "gold", "amount": 10 },
+		{ "item": "copper", "amount": 15 },
+		{ "item": "titanium", "amount":20 },
+	],
+	"category": "turret",
+	"research": "duo"
+}

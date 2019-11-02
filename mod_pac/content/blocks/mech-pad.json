@@ -1,0 +1,17 @@
+{
+	"name": "Mech Pad",
+	"description": "Transform into the mech.",
+	"type": "MechPad",
+	"mech": "mech",
+	"size": 3,
+	"consumes": {
+		"power": 1.0
+	},
+	"category": "upgrade",
+	"research": "wraith-factory",
+	"requirements": [
+		{ "item": "dronoid", "amount": 60 },
+		{ "item": "silicon", "amount": 30 },
+		{ "item": "graphite", "amount": 40 },
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"type": "Wall",
+	"name": "Large gold Wall",
+	"description": "Normik!",
+	"size": 2,
+	"health": 2000,
+	"requirements": [
+		{ "item": "gold", "amount": 12 },
+		{ "item": "copper", "amount": 5 },
+	],
+	"category": "defense",
+}
